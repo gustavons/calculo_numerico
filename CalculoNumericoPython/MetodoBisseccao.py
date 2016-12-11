@@ -1,6 +1,9 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+"""Este algoritimo parte de uma aproxiamação inicial da raiz de uma função e
+ refina esta aproximação por meio metodo da Bissecção. """
+
 
 if __name__=="__main__":
     # intervalos iniciais
@@ -61,8 +64,6 @@ if __name__=="__main__":
             print 'Solução: ', lista_temporaria[3],' Interação: ', lista_temporaria[0]
             break
 
-        # limpa a lista temporaria
-        lista_temporaria = []
 
     # verifica se o metodo convergiu
     if (solucao == []):
